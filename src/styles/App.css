@@ -1,12 +1,37 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
+.app {
+    display: flex;
+    height: 100vh;
+    width: 100%;
     justify-content: center;
     align-items: center;
-}
+    background-color: #f0f0f0;
+  }
+  
+  .textarea {
+    width: 50%;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    border-right: 1px solid #ddd;
+    outline: none;
+    resize: none;
+    height: 100vh;
+    box-sizing: border-box; /* Ensures padding is included in width/height */
+  }
+  
+  .preview {
+    width: 50%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    overflow-y: auto;
+    height: 100vh;
+    box-sizing: border-box; /* Ensures padding is included in width/height */
+  }
+  
+  .loading {
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    color: #333;
+  }
+  
